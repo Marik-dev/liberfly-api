@@ -1,0 +1,43 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Documentação da API - Liberfly",
+        "description": "Projeto simples com rota GET e autenticação.",
+        "contact": {
+            "email": "rafbeiro@outlook.com"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/registros": {
+            "get": {
+                "operationId": "50a20eb9415c85dc7abd5f4fc3519292",
+                "responses": {
+                    "200": {
+                        "description": "Listar todos registros"
+                    }
+                }
+            }
+        },
+        "/api/registros/{id}": {
+            "get": {
+                "operationId": "43467a688c43e84b9cd1e6d6c538093b",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Filtrar um registro"
+                    }
+                }
+            }
+        }
+    }
+}
