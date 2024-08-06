@@ -52,7 +52,7 @@ Para registrar um novo usuário, envie uma requisição POST para /api/register 
 Se quiser, você pode testar tanto no Postman ou outra plataforma. Segue exemplo em CURL:
 `curl -X POST http://127.0.0.1:8000/api/register -d "name=Rafael Liberfly&email=rafaelliberfly@teste.com&password=senha123"`
 ### Imagem exemplo
-![Imagem exemplo do Cadastro](https://imgur.com/R6vBGjw)
+![Imagem exemplo do Cadastro](https://github.com/user-attachments/assets/271fd55b-7ee4-4fac-899b-3f5f60645bba)
 
 ## Login de usuário
 
@@ -62,7 +62,7 @@ Assim como no cadastro, é necessário realizar um POST indicando o login e senh
 
 Nas funções do UserController devolvo o token no cadastro ou login do usuário. Dito isso, após autenticado você receberá uma `response` em JSON com o JWT Token.
 ### Imagem exemplo
-![Imagem exemplo de Login](https://imgur.com/k4OYOS6)
+![Imagem exemplo de Login](https://github.com/user-attachments/assets/405e5ded-61a3-4e4b-8606-d595f907aac6)
 
 ## Listar registros
 
@@ -71,7 +71,7 @@ Exemplo em CURL:
 
 `curl -H "Authorization: Bearer TOKEN_AQUI" http://127.0.0.1:8000/api/registros`
 ### Imagem exemplo
-![Imagem exemplo dos registros listados](https://imgur.com/Kwd4unp)
+![Imagem exemplo dos registros listados](https://github.com/user-attachments/assets/ff753fd8-ad66-4854-9e79-6397ee539991)
 
 ### Obter um registro específico
 
